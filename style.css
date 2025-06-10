@@ -1,0 +1,53 @@
+#calculatorContainer {
+  width: 320px;
+  height: 500px;
+  margin: 40px auto;
+  border: 2px solid #333;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  border-collapse: collapse;
+  font: normal 1.8em Arial, Helvetica, sans-serif;
+}
+
+tr {
+  height: 20%;
+  background-color: #4e494d;
+}
+
+td {
+  width: 25%;
+  border: 1px solid #4e494d;
+}
+
+#inputBox {
+  background-color: #4e494d;
+  text-align: right;
+  width: 100%;
+  font-size: 1.4em;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.digitButton {
+  background-color: #807e80;
+}
+
+.operatorButton {
+  background-color: #ff9e06;
+}
+
+.ACButton {
+  background-color: #656165;
+}
